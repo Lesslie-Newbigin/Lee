@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hacker Admin Panel</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="login" id="loginBox">
+    <h1>Admin Login</h1>
+    <input type="text" id="username" placeholder="Username" />
+    <input type="password" id="password" placeholder="Password" />
+    <button onclick="login()">Login</button>
+    <p id="error"></p>
+  </div>
+
+  <div class="dashboard" id="dashboard">
+    <h2>Welcome, Lesslie Newbigin</h2>
+    <div class="log">[SYSTEM] Access granted at 12:32:14</div>
+    <div class="log">[INFO] Monitoring user requests...</div>
+    <div class="log">[ALERT] Suspicious IP detected</div>
+    <div class="log">[SYSTEM] Log archive updated</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
