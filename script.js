@@ -3,7 +3,7 @@ function login() {
   const pass = document.getElementById("password").value;
   const error = document.getElementById("error");
 
-  if (user === "lesslie Newbigin" && pass === "2aug0088l") {
+  if (user === "lesslie Newbigin" && pass === "2aug0088L") {
     document.getElementById("loginBox").style.display = "none";
     document.getElementById("dashboard").style.display = "flex";
   } else {
